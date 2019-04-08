@@ -18,19 +18,19 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('Would you like to see data for Chicago, New York or Washington?').lower()
-    while not(city == "chicago" or city == "new york" or city == "washington"):
+    while not(city in("chicago", "new york", "washington")):
         print("City isn't valid... choose from Washington, Chicago or New York")
         city = input('Would you like to see data for Chicago, New York or Washington?').lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Would you like to filter data by month? January, February, March, April, May or June?').lower().title()
-    while not(month == 'January' or month == 'February' or month == 'March' or month == 'April' or month == 'May' or month == 'June'):
+    while not(month in ('January', 'February', 'March', 'April', 'May', 'June')):
         print("Month isn't valid...chosose from January, February, March, April,May or June ")
         month = input('Would you like to filter data by month? January, February, March, April, May or June?').lower().title()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday?').lower().title()
-    while not(day == "Monday" or day == "Tuesday" or day == "Wednesday" or day == "Thursday" or day == "Friday" or day == "Saturday" or day == "Sunday"):
+    while not(day in ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")):
         print('Not valid')
         day = input('Which day? Mon, Tue, Wed, Thur, Fri, Sat or Sun?').lower().title()
     print('-'*40)
