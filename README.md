@@ -13,4 +13,4 @@ new-york-city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://knowledge.udacity.com/questions/34202?utm_campaign=ret_600_auto_ndxxx_knowledge-comment-created_na&utm_source=blueshift&utm_medium=email&utm_content=ret_600_auto_ndxxx_knowledge-comment-created_na&bsft_clkid=4b385918-b74d-4461-aaea-b8827dd1db92&bsft_uid=d8bf5f0d-8741-4d3a-b041-f43849071ffe&bsft_mid=d55d32ff-1451-4edd-a817-8bb3fe4697d7&bsft_eid=bee2de82-decd-e24c-d46e-8971c91d877c&bsft_txnid=e068b7d9-3625-4433-b406-9f03eec4ea97
