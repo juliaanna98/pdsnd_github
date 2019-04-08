@@ -5,7 +5,7 @@
 pdsnd_github
 
 ### Description
-Describe what your project is about and what it does
+This project improves documentation of the BikeShare python file to increase its readability and efficiency
 
 ### Files used
 Include the files used
